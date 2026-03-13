@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello im Eric</title>
+    <!-- 連結到我們的樣式表 CSS 檔案 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 導覽列：網頁最上方的選單 -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Gay</h1>
+            <!-- 導覽選單連結 -->
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#gallery">Pics</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+            <!-- 主題切換按鈕 -->
+            <button class="theme-toggle" id="themeToggle">🌙</button>
+        </div>
+    </nav>
+
+    <!-- 主要內容區域 -->
+    <main>
+        <!-- 首頁區塊：歡迎畫面 -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="hero-title animate-fade-in">Hello, Im Eric 👋</h2>
+                    <p class="hero-subtitle animate-fade-in-delay">Welcome to my site</p>
+                    <p class="hero-description">I am hated by everyone</p>
+                    <a href="#about" class="btn btn-primary">Dont want to care...</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 關於我區塊 -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">關於我</h2>
+                <div class="about-content">
+                    <!-- 個人照片 -->
+                    <div class="profile-photo">
+                        <img src="images/123.PNG" alt="我的照片" class="photo-hover-effect">
+                    </div>
+                    <!-- 個人介紹文字 -->
+                    <div class="about-text">
+                        <h3>H 🎉</h3>
+                        <p>我是王小明，目前就讀於台北市某高中二年級。我對程式設計、音樂和攝影都很有興趣。</p>
+                        <p>這是我第一次用 AI 輔助建立的個人網頁，希望能在這裡分享我的學習歷程與作品！</p>
+                        
+                        <!-- 個人特質標籤 -->
+                        <div class="tags">
+                            <span class="tag">程式愛好者</span>
+                            <span class="tag">音樂欣賞</span>
+                            <span class="tag">攝影</span>
+                            <span class="tag">閱讀</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 興趣區塊 -->
+        <section id="hobbies" class="section bg-secondary">
+            <div class="container">
+                <h2 class="section-title">我的興趣</h2>
+                <div class="hobbies-grid">
+                    <!-- 興趣卡片 1 -->
+                    <div class="card hover-lift">
+                        <div class="card-icon">💻</div>
+                        <h3>程式設計</h3>
+                        <p>喜歡透過程式碼創造有趣的東西，目前正在學習網頁開發！</p>
+                    </div>
+                    <!-- 興趣卡片 2 -->
+                    <div class="card hover-lift">
+                        <div class="card-icon">🎵</div>
+                        <h3>音樂</h3>
+                        <p>喜歡聽各種類型的音樂，偶爾也會自己彈吉他。</p>
+                    </div>
+                    <!-- 興趣卡片 3 -->
+                    <div class="card hover-lift">
+                        <div class="card-icon">📸</div>
+                        <h3>攝影</h3>
+                        <p>喜歡用相機記錄生活中的美好瞬間。</p>
+                    </div>
+                    <!-- 興趣卡片 4 -->
+                    <div class="card hover-lift">
+                        <div class="card-icon">📚</div>
+                        <h3>閱讀</h3>
+                        <p>喜歡閱讀科幻小說和科普書籍，探索未知的世界。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 相簿區塊 -->
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2 class="section-title">相簿</h2>
+                <p class="section-subtitle">分享一些我拍攝的照片</p>
+                <div class="gallery-grid">
+                    <!-- 照片 1 -->
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="風景照片 1" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <p>美麗的日落</p>
+                        </div>
+                    </div>
+                    <!-- 照片 2 -->
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=400&h=300&fit=crop" alt="風景照片 2" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <p>城市夜景</p>
+                        </div>
+                    </div>
+                    <!-- 照片 3 -->
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?w=400&h=300&fit=crop" alt="風景照片 3" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <p>山中小徑</p>
+                        </div>
+                    </div>
+                    <!-- 照片 4 -->
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=400&h=300&fit=crop" alt="風景照片 4" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <p>海邊風光</p>
+                        </div>
+                    </div>
+                    <!-- 照片 5 -->
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=300&fit=crop" alt="風景照片 5" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <p>咖啡時光</p>
+                        </div>
+                    </div>
+                    <!-- 照片 6 -->
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=400&h=300&fit=crop" alt="風景照片 6" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <p>街頭藝術</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 聯絡區塊 -->
+        <section id="contact" class="section bg-secondary">
+            <div class="container">
+                <h2 class="section-title">聯絡我</h2>
+                <p class="section-subtitle">歡迎與我交流！</p>
+                
+                <!-- 聯絡方式 -->
+                <div class="contact-info">
+                    <div class="contact-item hover-scale">
+                        <span class="contact-icon">📧</span>
+                        <p>Email: xiaoming@example.com</p>
+                    </div>
+                    <div class="contact-item hover-scale">
+                        <span class="contact-icon">📱</span>
+                        <p>Instagram: @xiaoming</p>
+                    </div>
+                    <div class="contact-item hover-scale">
+                        <span class="contact-icon">🐙</span>
+                        <p>GitHub: @xiaoming</p>
+                    </div>
+                </div>
+
+                <!-- 簡單的留言表單 -->
+                <div class="contact-form">
+                    <h3>留言給我</h3>
+                    <form id="contactForm">
+                        <input type="text" placeholder="你的名字" class="form-input" required>
+                        <input type="email" placeholder="你的 Email" class="form-input" required>
+                        <textarea placeholder="想對我說的話..." class="form-textarea" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">送出留言</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 頁尾 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 王小明的個人網頁 | 使用 AI 輔助製作</p>
+        </div>
+    </footer>
+
+    <!-- 連結到我們的 JavaScript 檔案 -->
+    <script src="script.js"></script>
+</body>
+</html>
